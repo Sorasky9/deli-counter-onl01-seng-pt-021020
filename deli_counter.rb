@@ -20,7 +20,7 @@ if katz_deli.join
   message = "Welcome"
   katz_deli.each_with_index do |value, index|
   message += "#{katz_deli}. You are number #{index.to_i+1} in line."
-
+binding.pry 
 end
 puts "#{message}"
 end
