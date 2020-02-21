@@ -13,7 +13,7 @@ puts "#{message}"
  end
  end
 
-def take_a_number(katz_deli)
+def take_a_number(katz_deli, "Ada")
 katz_deli = []
 
 if katz_deli.join
