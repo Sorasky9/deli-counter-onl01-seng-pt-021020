@@ -13,7 +13,6 @@ puts "#{message}"
  end
  end
 
- katz_deli = ["Ada"]
 def take_a_number(katz_deli)
 if katz_deli.join
   message = "Welcome"
