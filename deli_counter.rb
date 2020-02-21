@@ -13,8 +13,8 @@ puts "#{message}"
  end
  end
 
-def take_a_number(katz_deli)
-binding.pry
+def take_a_number(array, name)
+array.push("Ada")
 if katz_deli.join
   message = "Welcome"
   katz_deli.each_with_index do |value, index|
