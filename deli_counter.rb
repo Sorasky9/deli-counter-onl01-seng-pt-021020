@@ -14,6 +14,7 @@ puts "#{message}"
  end
 
 def take_a_number(katz_deli)
+binding.pry
 if katz_deli.join
   message = "Welcome"
   katz_deli.each_with_index do |value, index|
