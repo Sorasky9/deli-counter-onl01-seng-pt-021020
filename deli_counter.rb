@@ -15,7 +15,7 @@ puts "#{message}"
 
 def take_a_number(array, name)
 array.push("Ada")
-if array.push
+if array.push = "Ada"
   message = "Welcome"
   katz_deli.each_with_index do |value, index|
   message += "#{katz_deli}. You are number #{index.to_i+1} in line."
